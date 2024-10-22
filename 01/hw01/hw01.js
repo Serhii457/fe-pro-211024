@@ -1,3 +1,4 @@
+//hw01
 let userNickname = 'Serhii';
 let userScore = 10;
 
