@@ -1,3 +1,6 @@
+           //Homework 02
+
+           
 // завдання 1
 let number1=10;
 let number2=20;
