@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            width: 200px;
+            height: 50px;
+            border-radius: 5%;
+        }
+        .div-element{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+        }
+        .task4{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: orange;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        #menu {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button class="hello">
+        Hello User
+    </button>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quaerat!
+    </p>
+    <div id="first" class="div-element"></div>
+    <br><br><br>
+    <button class="counter-button">
+        Лічильник
+    </button>
+    <p class="p-counter">Кількість кліків: 0</p>
+    <br><br><br>
+    <div class="container"></div>
+    <br><br><br>
+    <div class="block-container">
+        <button class="first">1</button>
+        <button class="second">2</button>
+        <button class="third">3</button>
+    </div>
+    <br><br><br>
+    
+    <button id="toggleBtn">Відкрити меню</button>
+    <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Sale</a></li>
+    </ul>
+
+    <div class="container"></div>
+    <script src="hw09.js"></script>
+</body>
+</html>
