@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input-section{
+            width: 150px;
+            height: 50px;
+            border: 2px solid black;
+            box-shadow: 1px gray;
+            font-size: 30px;
+        }
+        .button-style{
+            width: 120px;
+            height: 40px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>
+            Обмін валют
+        </h1>
+        <label for="currencyFrom">
+            Ви конвертуєте (сума)
+        </label>
+        <input type="number" id="currencyFrom" class="input-section">
+        <label for="currencyTo">
+            По курсу
+        </label>
+        <input type="number" id="currencyTo" class="input-section">
+        <button id="calculateValue" class="button-style" disabled>
+            Розрахувати
+        </button>
+    </form>
+        <h3>
+            Ви отримаєте <strong>0</strong>
+        </h3>
+    <script src="hw10form.js"></script>
+</body>
+</html>
