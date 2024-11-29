@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Форма з вибором улюбленого кольору.-->
+    <form action="">
+        <div>
+            <input
+            type="radio" 
+            name="color" 
+            id="red" 
+            value="red">
+            <label for="red">
+                Red color
+            </label>
+        </div>
+        <div>
+            <label>
+                <input 
+                type="radio" 
+                name="color" 
+                id="green" 
+                value="green">
+                Green color
+            </label>
+            
+        </div>
+        <div>
+            <label>
+                <input 
+                type="radio" 
+                name="color" 
+                id="blue" value="blue">
+                Blue color
+            </label>
+        </div>
+        <p>
+            You select <strong class="colorInfo"></strong>
+        </p>
+    </form>
+
+    <!-- Форма для вибору хобі з чекбоксами. -->
+    <section>
+        <form action="">
+           <h2>
+            Хоббі
+        </h2>
+        <div>
+            <input
+            class="hobby-checkbox" 
+            type="checkbox"
+            name="hobbie"
+            id="reading"
+            value="Reading">
+            <label for="reading">Reading</label>
+        </div>
+        <div>
+            <input
+            class="hobby-checkbox"
+            type="checkbox"
+            name="hobbie"
+            id="sport"
+            value="Sport">
+            <label for="sport">Sport</label>
+        </div>
+        <div>
+            <input
+            class="hobby-checkbox" 
+            type="checkbox"
+            name="hobbie"
+            id="music"
+            value="Music">
+            <label for="music">Music</label>
+        </div> 
+        </form>
+        
+        <br><br>
+    <div>
+        You select <strong class="selected-hobbies"></strong>
+    </div>
+    </section>
+    
+        <!-- Форма з вибором країни із випадаючого списку. -->
+    
+        <h2>
+            Select country
+        </h2>
+        <select>
+            <option value="">Select country</option>
+        </select>
+        <p class="countryInfo"></p>
+
+        <!-- Форма для оцінювання якості обслуговування. -->
+         <h2>Оцініть якість обслуговування</h2>
+        <form action="">
+            <div>
+                <label><input 
+                    type="radio" 
+                    name="assessment" 
+                    value="1"> 1</label>
+            </div>
+            <div>
+                <label><input 
+                    type="radio" 
+                    name="assessment" 
+                    value="2"> 2</label>
+            </div>
+            <div>
+                <label><input 
+                    type="radio" 
+                    name="assessment" 
+                    value="3"> 3</label>
+            </div>
+            <div>
+                <label><input 
+                    type="radio" 
+                    name="assessment" 
+                    value="4"> 4</label>
+            </div>
+            <div>
+                <label><input 
+                    type="radio" 
+                    name="assessment" 
+                    value="5"> 5</label>
+            </div>
+        </form>
+    <div class="assessment-message"></div>
+<script src="hw11.js"></script>
+</body>
+</html>
